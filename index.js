@@ -19,3 +19,4 @@ if (parseInt(time) >= 12 && parseInt(time) < 17) {
 return "Good Evening"
 }
 /* Write your implementation of displayMessage() */
+function displayMessage()
