@@ -20,6 +20,6 @@ return "Good Evening"
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(message) {
- document.getElementbyId("greeting").innerText = message;
+ document.getElementById("greeting").innerText = message;
 
 }
