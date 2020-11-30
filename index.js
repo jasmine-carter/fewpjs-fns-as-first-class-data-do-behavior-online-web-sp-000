@@ -13,11 +13,10 @@ function greet(time) {
 if (parseInt(time) < 12) {
   return "Good Morning";
 }
-if (parseInt(time) >= 12 || parseInt(time) < 17) {
+if (parseInt(time) >= 12 && parseInt(time) < 17) {
   return "Good Afternoon"
 }
 return "Good Evening"
-
 }
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
